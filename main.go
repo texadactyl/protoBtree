@@ -4,10 +4,6 @@ import "os"
 
 var step = 2
 
-// Data and its assoicated index file.
-const pathData = "./saucisse.data"
-const pathIndex = "./saucisse.index"
-
 func main() {
 
 	// Register the record definitions with gob.

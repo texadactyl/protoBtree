@@ -6,8 +6,12 @@ import (
 	"os"
 )
 
+// Data and its associated index file.
+const pathData = "./data.bin"
+const pathIndex = "./index.bin"
+
 // Number of records to write to the data file.
-const maxRecords = 10000
+const maxRecords = 10
 const maxDisplaySamples = 20
 
 // Record types.
